@@ -17,3 +17,4 @@ $ ssh-keygen -t rsa -C "youremail@example.com" 生成shh密钥
 git remote rm origin  解除远程绑定；
 
 git push -u origin master  推送到远程仓库；
+ssssss
