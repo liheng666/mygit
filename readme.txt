@@ -31,3 +31,5 @@ git push -u origin master  推送到远程仓库；
 使用普通方式合并 git merge --no-ff -m "说明"
 
 删除分支：git branch -d <name>
+
+保存工作区
