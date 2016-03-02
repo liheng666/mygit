@@ -1,4 +1,4 @@
-此为个人git仓库；
+此为个人git仓库及git学习笔记
 git add 添加文件到暂存区；
 git commit -m "更改说明" 提交文件更改；
 git status 查看当前文件状态；
