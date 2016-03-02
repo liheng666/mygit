@@ -31,6 +31,7 @@ git push -u origin master  推送到远程仓库；
 使用普通方式合并 git merge --no-ff -m "说明"
 
 删除分支：git branch -d <name>
+如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除
 
 储存当前工作区  git stash 
 
