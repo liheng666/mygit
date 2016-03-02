@@ -54,3 +54,21 @@ git push -u origin master  推送到远程仓库；
 查看储存区列表 git stash list 
 
 恢复指定储存 git stash apply stash@{0}
+
+在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
+
+git branch --set-upstream <name> origin/<name>  设置本地分支与远程分支链接关系
+
+git pull  拉取远程分支；
+
+git push origin :<name> 删除出远程分支库
+
+命令git tag <name>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+
+git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+
+git tag -s <tagname> -m "blablabla..."可以用PGP签名标签；
+
+命令git tag可以查看所有标签。
+
+命令git show <tagname> 查看标签详细信息
