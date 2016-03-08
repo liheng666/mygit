@@ -20,7 +20,7 @@ git checkout -- 文件名 放弃工作区的修改使文件返回最近的add或
 
 git reset HEAD 文件名  使已经add添加入缓存区的文件修改撤销掉，重新放回工作区；
 
-git rm 文件名  删除文件
+git rm 文件名  删除文件;
 
 $ ssh-keygen -t rsa -C "youremail@example.com" 生成shh密钥
 
