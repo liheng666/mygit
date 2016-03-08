@@ -28,7 +28,6 @@ git remote rm origin  解除远程绑定；
 
 git push -u origin master  推送到远程仓库；
 
-
 查看分支：git branch
 
 创建分支：git branch <name>
