@@ -1,4 +1,4 @@
-此为个人git仓库及git学习笔记
+此为个人git仓库及git学习笔记;
 
 git add 添加文件到暂存区；
 
@@ -43,15 +43,15 @@ git push -u origin master  推送到远程仓库；
 删除分支：git branch -d <name>
 如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除
 
-储存当前工作区  git stash 
+储存当前工作区  git stash
 
 恢复工作区 git stash apply
 
-删除储存 git stash drop 
+删除储存 git stash drop
 
 恢复工作区并删除储存  git stash pop
 
-查看储存区列表 git stash list 
+查看储存区列表 git stash list
 
 恢复指定储存 git stash apply stash@{0}
 
